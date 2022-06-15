@@ -13,6 +13,10 @@
 		F1A02130285980420035B823 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F1A0212E285980420035B823 /* Main.storyboard */; };
 		F1A02132285980450035B823 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = F1A02131285980450035B823 /* Assets.xcassets */; };
 		F1A02135285980450035B823 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F1A02133285980450035B823 /* LaunchScreen.storyboard */; };
+		F1A0213D285981450035B823 /* books.json in Resources */ = {isa = PBXBuildFile; fileRef = F1A0213C285981450035B823 /* books.json */; };
+		F1A02141285986280035B823 /* ExampleTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = F1A02140285986280035B823 /* ExampleTableViewCell.swift */; };
+		F1A021432859905B0035B823 /* DataLoader.swift in Sources */ = {isa = PBXBuildFile; fileRef = F1A021422859905B0035B823 /* DataLoader.swift */; };
+		F1A02145285990850035B823 /* DataType.swift in Sources */ = {isa = PBXBuildFile; fileRef = F1A02144285990850035B823 /* DataType.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -24,6 +28,10 @@
 		F1A02131285980450035B823 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		F1A02134285980450035B823 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		F1A02136285980450035B823 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		F1A0213C285981450035B823 /* books.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; name = books.json; path = ../../../../Downloads/books.json; sourceTree = "<group>"; };
+		F1A02140285986280035B823 /* ExampleTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ExampleTableViewCell.swift; sourceTree = "<group>"; };
+		F1A021422859905B0035B823 /* DataLoader.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DataLoader.swift; sourceTree = "<group>"; };
+		F1A02144285990850035B823 /* DataType.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DataType.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -56,13 +64,17 @@
 		F1A02127285980420035B823 /* BookApps */ = {
 			isa = PBXGroup;
 			children = (
+				F1A0213C285981450035B823 /* books.json */,
+				F1A021422859905B0035B823 /* DataLoader.swift */,
 				F1A02128285980420035B823 /* AppDelegate.swift */,
 				F1A0212A285980420035B823 /* SceneDelegate.swift */,
 				F1A0212C285980420035B823 /* ViewController.swift */,
+				F1A02144285990850035B823 /* DataType.swift */,
 				F1A0212E285980420035B823 /* Main.storyboard */,
 				F1A02131285980450035B823 /* Assets.xcassets */,
 				F1A02133285980450035B823 /* LaunchScreen.storyboard */,
 				F1A02136285980450035B823 /* Info.plist */,
+				F1A02140285986280035B823 /* ExampleTableViewCell.swift */,
 			);
 			path = BookApps;
 			sourceTree = "<group>";
@@ -125,6 +137,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				F1A0213D285981450035B823 /* books.json in Resources */,
 				F1A02135285980450035B823 /* LaunchScreen.storyboard in Resources */,
 				F1A02132285980450035B823 /* Assets.xcassets in Resources */,
 				F1A02130285980420035B823 /* Main.storyboard in Resources */,
@@ -138,6 +151,9 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				F1A021432859905B0035B823 /* DataLoader.swift in Sources */,
+				F1A02145285990850035B823 /* DataType.swift in Sources */,
+				F1A02141285986280035B823 /* ExampleTableViewCell.swift in Sources */,
 				F1A0212D285980420035B823 /* ViewController.swift in Sources */,
 				F1A02129285980420035B823 /* AppDelegate.swift in Sources */,
 				F1A0212B285980420035B823 /* SceneDelegate.swift in Sources */,
